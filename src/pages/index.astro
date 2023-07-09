@@ -29,8 +29,8 @@ import Card from '../components/Card.astro';
 			</ul>
 		</nav>
 	</header>
-	<section class="h-screen w-screen text-center relative overflow-hidden">
-		<div class="z-30 relative h-full flex flex-col">
+	<section class="h-screen w-screen text-center relative overflow-hidden flex items-center">
+		<div class="h-screen w-screen z-30 relative flex flex-col">
 			<header class=" flex flex-col">
 				<h2 class="text-white pt-40 text-[40px] font-medium">Disfrute de Tesla</h2>
 				<p class="text-white text-sm">Programe una prueba de conducción</p>
@@ -39,8 +39,8 @@ import Card from '../components/Card.astro';
 				<a class="text-white" href="#">Prueba de conducción</a>
 			</footer>
 		</div>
-		<div class="absolute top-0 bottom-0 h-full z-10">
-			<video class="objet-center" autoplay muted loop src="../../public/video.webm"></video>
+		<div class="absolute top-0 bottom-0 h-full w-full z-10">
+			<video class="w-full h-full object-cover objet-center" autoplay muted loop src="../../public/video.webm"></video>
 		</div>
 	</section>
 	</main>
